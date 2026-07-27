@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Indula — Pitch Deck Card Animation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="scene">
+      <div class="grain" aria-hidden="true"></div>
+
+      <div class="stage" id="stage">
+        <!-- 1. Process -->
+        <article class="card card--black" data-index="0">
+          <div class="card__inner">
+            <header class="card__meta">
+              <span>2.4</span>
+              <span>PROCESS</span>
+            </header>
+            <ul class="process-list">
+              <li>
+                <div class="process-list__title">
+                  <span class="num">1</span>
+                  <span>DISCOVER</span>
+                </div>
+                <p>
+                  Uncover the context, constraints, and opportunity. Map what
+                  matters before anything is designed.
+                </p>
+              </li>
+              <li>
+                <div class="process-list__title">
+                  <span class="num">2</span>
+                  <span>DIRECTION</span>
+                </div>
+                <p>
+                  Define the strategic path. Align ambition with a clear creative
+                  and brand direction.
+                </p>
+              </li>
+              <li>
+                <div class="process-list__title">
+                  <span class="num">3</span>
+                  <span>DESIGN</span>
+                </div>
+                <p>
+                  Translate strategy into form. Systems, layouts, and visual
+                  language built for clarity.
+                </p>
+              </li>
+              <li>
+                <div class="process-list__title">
+                  <span class="num">4</span>
+                  <span>DELIVERY</span>
+                </div>
+                <p>
+                  Ship with precision. Documentation, assets, and handoff ready
+                  for real-world use.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- 2. Opportunity -->
+        <article class="card card--white" data-index="1">
+          <div class="card__inner opportunity">
+            <header class="card__meta card__meta--dark">
+              <span>Studio Noteform®</span>
+              <span>P.02</span>
+              <span>Pitch Document</span>
+            </header>
+            <div class="opportunity__grid">
+              <div class="opportunity__rows">
+                <div class="opportunity__row">
+                  <span class="opportunity__label">OPPORTUNITY</span>
+                  <p>
+                    + Frame the opening for growth<br />
+                    + Identify where attention is scarce<br />
+                    + Position before the market moves
+                  </p>
+                </div>
+                <div class="opportunity__row">
+                  <span class="opportunity__label">GAP</span>
+                  <p>
+                    + What competitors leave unfinished<br />
+                    + Where clarity breaks down<br />
+                    + The unmet need in the system
+                  </p>
+                </div>
+                <div class="opportunity__row">
+                  <span class="opportunity__label">SHIFT</span>
+                  <p>
+                    + The change we enable<br />
+                    + From noise to structure<br />
+                    + A new default for the brand
+                  </p>
+                </div>
+              </div>
+              <figure class="opportunity__media">
+                <img src="assets/images/monolith.svg" alt="" />
+              </figure>
+            </div>
+          </div>
+        </article>
+
+        <!-- 3. Metrics dashboard -->
+        <article class="card card--black" data-index="2">
+          <div class="card__inner metrics">
+            <header class="metrics__head">
+              <div>
+                <span class="metrics__code">4.1</span>
+                <span class="metrics__title">METRICS</span>
+              </div>
+              <div class="metrics__stats">
+                <div>
+                  <small>Avg. Monthly Impressions</small>
+                  <strong>2.1M</strong>
+                </div>
+                <div>
+                  <small>Social Followers</small>
+                  <strong>55K</strong>
+                </div>
+                <div>
+                  <small>Email List</small>
+                  <strong>12</strong>
+                </div>
+              </div>
+            </header>
+            <div class="metrics__body">
+              <figure class="metrics__photo">
+                <img src="assets/images/person.jpg" alt="" />
+                <span class="metrics__photo-bar"></span>
+                <span class="metrics__photo-tag">01</span>
+              </figure>
+              <div class="metrics__data">
+                <div class="metrics__visits">
+                  <div>
+                    <small>Daily Visits</small>
+                    <strong>72K</strong>
+                  </div>
+                  <div class="bar-chart" aria-hidden="true">
+                    <span style="--h: 45%"></span>
+                    <span style="--h: 78%"></span>
+                    <span style="--h: 55%"></span>
+                    <span style="--h: 92%"></span>
+                  </div>
+                </div>
+                <div class="metrics__cities">
+                  <div><span>NEW YORK</span><span>33%</span></div>
+                  <div><span>LOS ANGELES</span><span>22%</span></div>
+                  <div><span>MIAMI</span><span>11%</span></div>
+                  <div><span>LONDON</span><span>7%</span></div>
+                  <div><span>PARIS</span><span>1%</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- 4. Brand / Noteform -->
+        <article class="card card--red" data-index="3">
+          <div class="card__inner brand-slide">
+            <header class="card__meta">
+              <span>Studio Noteform® / Pitch Document / © 2024</span>
+              <span>• FAQ / Client Name</span>
+              <span class="brand-slide__icon"></span>
+            </header>
+            <div class="brand-slide__chart" aria-hidden="true">
+              <span></span><span></span><span></span><span></span>
+            </div>
+            <h2 class="brand-slide__word">Noteform</h2>
+          </div>
+        </article>
+
+        <!-- 5. Soft metrics -->
+        <article class="card card--white" data-index="4">
+          <div class="card__inner soft-metrics">
+            <header class="card__meta card__meta--dark">
+              <span>METRICS</span>
+              <span>4.2</span>
+            </header>
+            <div class="soft-metrics__numbers">
+              <div>
+                <strong>2.06M</strong>
+                <p>Total reach across owned channels in the last quarter.</p>
+              </div>
+              <div>
+                <strong>160K</strong>
+                <p>Engaged users returning within a thirty-day window.</p>
+              </div>
+            </div>
+            <footer class="soft-metrics__foot">Noteform</footer>
+          </div>
+        </article>
+
+        <!-- 6. Introduction -->
+        <article class="card card--black" data-index="5">
+          <div class="card__inner intro">
+            <header class="card__meta">
+              <span>1.1</span>
+              <span>INTRODUCTION</span>
+            </header>
+            <div class="intro__copy">
+              <p>SET THE STAGE FOR YOUR</p>
+              <p>MAKE THE REST OF THE</p>
+              <p>NATURAL PROGRESSION</p>
+            </div>
+            <div class="intro__marks" aria-hidden="true">
+              <span>+</span><span>+</span><span>+</span>
+              <span>+</span><span>+</span><span>+</span>
+            </div>
+            <footer class="intro__foot">Pitch Deck</footer>
+          </div>
+        </article>
+
+        <!-- 7. About / red chapter -->
+        <article class="card card--red" data-index="6">
+          <div class="card__inner about">
+            <header class="card__meta">
+              <span>Studio Noteform® / Pitch Document / © 2024</span>
+              <span>• FAQ / Client Name</span>
+              <span class="brand-slide__icon"></span>
+            </header>
+            <div class="about__main">
+              <div class="about__text">
+                <h2>ABOUT</h2>
+                <p>
+                  Use this section to walk through a single project in detail.
+                  Structure the story across multiple slides: define the
+                  problem, frame the opportunity, introduce the solution.
+                </p>
+              </div>
+              <div class="about__giant">1</div>
+            </div>
+            <footer class="about__nav">
+              <div><span>01</span><span>Introduction</span></div>
+              <div><span>02</span><span>Our Studio</span></div>
+              <div><span>03</span><span>Services</span></div>
+            </footer>
+          </div>
+        </article>
+
+        <!-- 8. Metrics chapter cover -->
+        <article class="card card--red" data-index="7">
+          <div class="card__inner chapter">
+            <header class="card__meta">
+              <span>METRICS</span>
+            </header>
+            <p class="chapter__blurb">
+              Numbers that prove the work. Impressions, engagement, and the
+              geography of attention.
+            </p>
+            <div class="chapter__giant">4</div>
+          </div>
+        </article>
+      </div>
+
+      <div class="hint">Scroll or drag · Auto-play on</div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
