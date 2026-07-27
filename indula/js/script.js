@@ -193,5 +193,14 @@
 
   // Initial layout
   applyTransforms(0);
+
+  // ?still=1 freezes the stack for screenshots / README previews
+  if (new URLSearchParams(location.search).has("still")) {
+    autoplay = false;
+    const hint = document.querySelector(".hint");
+    if (hint) hint.style.display = "none";
+    return;
+  }
+
   requestAnimationFrame(tick);
 })();
