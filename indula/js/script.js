@@ -1,7 +1,6 @@
 /**
  * Indula — 3D cascading pitch-deck card stack
- * Matches the Pinterest promo motion: stacked, tilted cards cycling in depth.
- * Reference: https://pin.it/5JIp5CG7L
+ * Stacked, tilted cards cycling in depth.
  */
 
 (() => {
@@ -10,7 +9,7 @@
   const cards = Array.from(stage.querySelectorAll(".card"));
   const count = cards.length;
 
-  // Visual stack parameters (tuned to the pin video framing)
+  // Visual stack parameters
   const STACK = {
     rotateX: 42,
     rotateY: -20,
@@ -40,7 +39,7 @@
   function applyTransforms(p) {
     const e = easeInOutCubic(Math.min(1, Math.max(0, p)));
 
-    // Soft ambient sway — matches the organic promo feel
+    // Soft ambient sway
     const swayX = Math.sin(elapsed * 0.00055) * 6;
     const swayY = Math.cos(elapsed * 0.0004) * 4;
     const swayRot = Math.sin(elapsed * 0.00035) * 1.4;

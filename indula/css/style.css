@@ -1,6 +1,5 @@
 /* =========================================================
-   Indula — Noteform-style Pitch Deck Card Stack
-   Reference: https://pin.it/5JIp5CG7L
+   Indula — Pitch Deck Card Stack
    ========================================================= */
 
 :root {
@@ -433,7 +432,7 @@ body {
   border-bottom: none;
 }
 
-/* ---------- Brand Noteform ---------- */
+/* ---------- Brand ---------- */
 
 .brand-slide {
   justify-content: space-between;

@@ -1,14 +1,12 @@
 # Card Animation T1 — Indula Pitch Deck Stack
 
-A pure HTML/CSS/JS recreation of a cascading **3D pitch-deck card stack** — the kind of motion you see in studio promo reels: cards peel toward the camera, the stack cascades in depth, and the next slide rises from behind.
+A pure HTML/CSS/JS cascading **3D pitch-deck card stack** — cards peel toward the camera, the stack cascades in depth, and the next slide rises from behind.
 
 ![3D cascading pitch deck card stack preview](./preview.png)
 
 ## What this is
 
 **Indula** is a self-contained micro-demo of an editorial pitch deck UI. Eight 16:9 slides (process, opportunity, metrics, brand, intro, about, chapter covers) sit in a perspective stage and cycle with a smooth peel / cascade animation.
-
-Inspired by Studio Noteform–style pitch material and [this Pinterest promo motion](https://pin.it/5JIp5CG7L).
 
 ## Features
 
@@ -63,7 +61,7 @@ Interaction pauses autoplay briefly; after you stop scrolling or dragging, autop
 | 1 | Process      | Black  |
 | 2 | Opportunity  | White  |
 | 3 | Metrics      | Black  |
-| 4 | Brand / Noteform | Red |
+| 4 | Brand           | Red    |
 | 5 | Soft metrics | White  |
 | 6 | Introduction | Black  |
 | 7 | About        | Red    |
@@ -71,4 +69,4 @@ Interaction pauses autoplay briefly; after you stop scrolling or dragging, autop
 
 ## License
 
-Personal / portfolio demo. Content styling references editorial pitch-deck systems for learning and recreation purposes.
+Copyright © 2026 Mohamed Jemshith. All rights reserved.
